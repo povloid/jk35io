@@ -73,7 +73,7 @@ public class FilesTools {
 
 		final var md5sum = bytesToHex(digest);
 
-		log.info("Контрольная сумма (MD5) файла по пути {} ровна {}", path, md5sum);
+		log.debug("Контрольная сумма (MD5) файла по пути {} ровна {}", path, md5sum);
 
 		return md5sum;
 
